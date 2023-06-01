@@ -78,3 +78,5 @@ def main():
     initialize_tables()
     insert_data()
     view_data()
+
+main()

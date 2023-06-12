@@ -1,3 +1,15 @@
+# Setup
+To initialize the mess.txt serving and apache reverse proxy, run the initialze.sh script
+```bash
+$ chmod +x ./initialize.sh
+$ ./initialize.sh
+```
+
+To start the database, pgadmin and the user details website
+```bash
+$ docker compose up --build
+```
+
 **Hostel and Mess Management Automation Checklist**
 
 **Normal Mode:**

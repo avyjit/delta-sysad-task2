@@ -6,7 +6,7 @@ log = logging.getLogger(__name__)
 DATAPATH = "./studentDetails.txt"
 
 conn = psycopg2.connect(
-    host="localhost",
+    host="db",
     database="postgres",
     user="postgres",
     password="postgres",

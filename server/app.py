@@ -6,7 +6,7 @@ logging.basicConfig(format='%(name)s:[%(levelname)s] %(message)s',  level=loggin
 log = logging.getLogger(__name__)
 
 conn = psycopg2.connect(
-    host="localhost",
+    host="db",
     database="postgres",
     user="postgres",
     password="postgres",

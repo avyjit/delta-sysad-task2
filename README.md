@@ -14,6 +14,11 @@ To populate the db with data from studentDetails.txt, run the `dbscript.py` scri
 $ python3 ./dbscript.py
 ```
 
+To add a cronjob for the db backup, run 
+```bash
+$ ./cronjob.sh
+```
+
 **Hostel and Mess Management Automation Checklist**
 
 **Normal Mode:**
@@ -23,7 +28,7 @@ $ python3 ./dbscript.py
 - [x] Store user details in a database instead of files.
 **SuperUser Mode:**
 
-- [ ] Set up a cronjob for periodic database backups.
+- [x] Set up a cronjob for periodic database backups.
 - [x] Modify the Docker setup to preserve database data during restarts.
 - [x] Add PHPMyAdmin Docker service for viewing the database.
 - [x] Create a website for displaying user details based on permissions.
